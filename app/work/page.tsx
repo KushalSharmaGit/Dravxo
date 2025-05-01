@@ -90,7 +90,7 @@ export default function WorkPage() {
             <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <div className="relative overflow-hidden">
                 <img
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/60.jpg?height=400&width=600"
                   alt="Project thumbnail"
                   className="w-full h-48 object-cover transition-transform duration-500 hover:scale-105"
                 />

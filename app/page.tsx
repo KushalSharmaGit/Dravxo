@@ -226,7 +226,7 @@ export default function Home() {
             <div className="group">
               <div className="relative overflow-hidden rounded-lg mb-4">
                 <img
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/60.jpg?height=600&width=800"
                   alt="Project thumbnail"
                   className="w-full h-[300px] object-cover transition-transform duration-500 group-hover:scale-105"
                 />
