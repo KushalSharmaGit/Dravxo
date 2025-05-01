@@ -6,8 +6,10 @@ import { usePathname } from "next/navigation"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
+import { useRouter } from 'next/navigation'
 
 export default function Navbar() {
+  const router = useRouter();
   const [isOpen, setIsOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
   const pathname = usePathname()
@@ -50,7 +52,7 @@ export default function Navbar() {
         <nav className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold text-gray-900">
-            Sheen<span className="text-blue-600">edge</span>
+            Sheen<span className="text-blue-600">Edge</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -70,7 +72,7 @@ export default function Navbar() {
                 </li>
               ))}
             </ul>
-            <Button>Get in Touch</Button>
+            <Button onClick={() => router.push('/contact')}>Get in Touch</Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -102,9 +104,6 @@ export default function Navbar() {
                 </li>
               ))}
             </ul>
-            <div className="mt-6">
-              <Button className="w-full">Get in Touch</Button>
-            </div>
           </div>
         )}
       </div>

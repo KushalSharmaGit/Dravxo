@@ -73,14 +73,10 @@ export default function ServicesPage() {
                   <span className="text-gray-700">Performance Optimization</span>
                 </li>
               </ul>
-              <Button className="bg-blue-600 hover:bg-blue-700">
-                Learn More
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
             </div>
             <div className="rounded-lg overflow-hidden">
               <img
-                src="/placeholder.svg?height=600&width=800"
+                src="/3.png?height=600&width=800"
                 alt="Web Development"
                 className="w-full h-full object-cover"
               />
@@ -95,7 +91,7 @@ export default function ServicesPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1 rounded-lg overflow-hidden">
               <img
-                src="/placeholder.svg?height=600&width=800"
+                src="/5.png?height=600&width=800"
                 alt="App Development"
                 className="w-full h-full object-cover"
               />
@@ -144,10 +140,6 @@ export default function ServicesPage() {
                   <span className="text-gray-700">App Store Optimization</span>
                 </li>
               </ul>
-              <Button className="bg-blue-600 hover:bg-blue-700">
-                Learn More
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
             </div>
           </div>
         </div>
@@ -201,14 +193,11 @@ export default function ServicesPage() {
                   <span className="text-gray-700">AI Integration Services</span>
                 </li>
               </ul>
-              <Button className="bg-blue-600 hover:bg-blue-700">
-                Learn More
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
+              
             </div>
             <div className="rounded-lg overflow-hidden">
               <img
-                src="/placeholder.svg?height=600&width=800"
+                src="/bill.png?height=600&width=800"
                 alt="AI Solutions"
                 className="w-full h-full object-cover"
               />
@@ -309,7 +298,7 @@ export default function ServicesPage() {
                       strokeLinejoin="round"
                     />
                   </svg>
-                  <span className="text-gray-300">hello@sheenedge.com</span>
+                  <span className="text-gray-300">sheenedgehelp@gmail.com</span>
                 </div>
                 <div className="flex items-start">
                   <svg
@@ -326,7 +315,7 @@ export default function ServicesPage() {
                       strokeLinejoin="round"
                     />
                   </svg>
-                  <span className="text-gray-300">+1 (234) 567-8901</span>
+                  <span className="text-gray-300">+91 9627699990</span>
                 </div>
                 <div className="flex items-start">
                   <svg
@@ -350,7 +339,7 @@ export default function ServicesPage() {
                       strokeLinejoin="round"
                     />
                   </svg>
-                  <span className="text-gray-300">123 Innovation Street, Tech City, TC 10101</span>
+                  <span className="text-gray-300">Crossings Republik, Ghaziabad</span>
                 </div>
               </div>
             </div>

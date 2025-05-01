@@ -9,23 +9,17 @@ export default function Footer() {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-1">
             <Link href="/" className="text-2xl font-bold mb-4 inline-block">
-              Sheen<span className="text-blue-500">edge</span>
+              Sheen<span className="text-blue-500">Edge</span>
             </Link>
             <p className="text-gray-400 mt-4 mb-6">
               Premium digital solutions crafted with precision, innovation, and a deep understanding of your business
               needs.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors" aria-label="Facebook">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors" aria-label="Twitter">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors" aria-label="Instagram">
+            <a href="https://www.instagram.com/sheenedge" className="text-gray-400 hover:text-white transition-colors" aria-label="Instagram">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/company/sheenedge/" className="text-gray-400 hover:text-white transition-colors" aria-label="LinkedIn">
                 <Linkedin size={20} />
               </a>
             </div>
@@ -82,16 +76,6 @@ export default function Footer() {
                   Contact
                 </Link>
               </li>
-              <li>
-                <Link href="/careers" className="text-gray-400 hover:text-white transition-colors">
-                  Careers
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog" className="text-gray-400 hover:text-white transition-colors">
-                  Blog
-                </Link>
-              </li>
             </ul>
           </div>
 
@@ -101,26 +85,26 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <Mail className="mr-2 h-5 w-5 text-gray-400 mt-0.5" />
-                <a href="mailto:hello@sheenedge.com" className="text-gray-400 hover:text-white transition-colors">
-                  hello@sheenedge.com
+                <a href="mailto:sheenedgehelp@gmail.com" className="text-gray-400 hover:text-white transition-colors">
+                sheenedgehelp@gmail.com
                 </a>
               </li>
               <li className="flex items-start">
                 <Phone className="mr-2 h-5 w-5 text-gray-400 mt-0.5" />
                 <a href="tel:+1234567890" className="text-gray-400 hover:text-white transition-colors">
-                  +1 (234) 567-890
+                  +91 9627699990
                 </a>
               </li>
               <li className="flex items-start">
                 <MapPin className="mr-2 h-5 w-5 text-gray-400 mt-0.5" />
-                <span className="text-gray-400">123 Innovation Street, Tech City, TC 10101</span>
+                <span className="text-gray-400">Crossings Republik, Ghaziabad</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-500 text-sm">&copy; {new Date().getFullYear()} Sheenedge. All rights reserved.</p>
+          <p className="text-gray-500 text-sm">&copy; {new Date().getFullYear()} SheenEdge. All rights reserved.</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <Link href="/privacy" className="text-gray-500 text-sm hover:text-gray-400 transition-colors">
               Privacy Policy

@@ -206,12 +206,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-lg font-semibold mb-1">Email</h3>
                     <p className="text-gray-600 mb-1">For general inquiries:</p>
-                    <a href="mailto:hello@sheenedge.com" className="text-blue-600 hover:text-blue-700">
-                      hello@sheenedge.com
-                    </a>
-                    <p className="text-gray-600 mt-2 mb-1">For support:</p>
-                    <a href="mailto:support@sheenedge.com" className="text-blue-600 hover:text-blue-700">
-                      support@sheenedge.com
+                    <a href="mailto:sheenedgehelp@gmail.com" className="text-blue-600 hover:text-blue-700">
+                    sheenedgehelp@gmail.com
                     </a>
                   </div>
                 </div>
@@ -224,11 +220,11 @@ export default function ContactPage() {
                     <h3 className="text-lg font-semibold mb-1">Phone</h3>
                     <p className="text-gray-600 mb-1">Main Office:</p>
                     <a href="tel:+12345678901" className="text-blue-600 hover:text-blue-700">
-                      +1 (234) 567-8901
+                    +91 9627699990
                     </a>
                     <p className="text-gray-600 mt-2 mb-1">Customer Support:</p>
                     <a href="tel:+12345678902" className="text-blue-600 hover:text-blue-700">
-                      +1 (234) 567-8902
+                      +91 9368528762
                     </a>
                   </div>
                 </div>
@@ -241,11 +237,11 @@ export default function ContactPage() {
                     <h3 className="text-lg font-semibold mb-1">Office Location</h3>
                     <p className="text-gray-600 mb-1">Headquarters:</p>
                     <address className="not-italic text-gray-700">
-                      123 Innovation Street
+                    Crossings Republik
                       <br />
-                      Tech City, TC 10101
+                       Ghaziabad
                       <br />
-                      United States
+                      Uttar Pradesh, India
                     </address>
                   </div>
                 </div>
@@ -273,17 +269,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="py-12">
-        <div className="container max-w-6xl mx-auto px-4">
-          <div className="bg-gray-200 rounded-lg overflow-hidden h-[400px] flex items-center justify-center">
-            <div className="text-center p-8">
-              <h3 className="text-xl font-semibold mb-2">Map Placeholder</h3>
-              <p className="text-gray-600">An interactive map would be displayed here showing the office location.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+ 
 
       {/* FAQ Section */}
       <section className="py-20 bg-gray-50">

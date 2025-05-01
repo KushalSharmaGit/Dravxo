@@ -1,9 +1,12 @@
+"use client"
 import Link from "next/link"
 import { ArrowRight, ChevronDown } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import HeroAnimation from "@/components/hero-animation"
+import { useRouter } from 'next/navigation'
 
 export default function Home() {
+  const router = useRouter();
   return (
     <main className="flex flex-col min-h-screen">
       {/* Hero Section */}
@@ -19,11 +22,11 @@ export default function Home() {
                 needs.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+                <Button size="lg" className="bg-blue-600 hover:bg-blue-700" onClick={() => router.push('/contact')}>
                   Let's Work Together
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
-                <Button size="lg" variant="outline">
+                <Button size="lg" variant="outline" onClick={() => router.push('/work')}>
                   View Our Work
                 </Button>
               </div>
@@ -203,26 +206,19 @@ export default function Home() {
             <div className="group">
               <div className="relative overflow-hidden rounded-lg mb-4">
                 <img
-                  src="/placeholder.svg?height=600&width=800"
+                  src="https://media.licdn.com/dms/image/v2/D4E2DAQFYuFtOhJHFlQ/profile-treasury-image-shrink_800_800/B4EZUEI16UHgAk-/0/1739531183280?e=1746709200&v=beta&t=g0HUrkrYwV6YkHC0r2nZPa2YX6qkEtGjhZQwkL0vmh0"
                   alt="Project thumbnail"
                   className="w-full h-[300px] object-cover transition-transform duration-500 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-gray-900/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end">
-                  <div className="p-6">
-                    <Button variant="secondary" size="sm">
-                      View Project
-                    </Button>
-                  </div>
-                </div>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Fintech Dashboard</h3>
+              <h3 className="text-xl font-semibold mb-2">Webify AI</h3>
               <p className="text-gray-600 mb-3">
-                A comprehensive financial analytics platform with real-time data visualization.
+              AI-powered platform that instantly generates professional, customizable websites from simple text prompts.
               </p>
               <div className="flex flex-wrap gap-2">
                 <span className="text-xs bg-gray-100 px-2 py-1 rounded">React</span>
                 <span className="text-xs bg-gray-100 px-2 py-1 rounded">Node.js</span>
-                <span className="text-xs bg-gray-100 px-2 py-1 rounded">D3.js</span>
+                <span className="text-xs bg-gray-100 px-2 py-1 rounded">Web Containers</span>
               </div>
             </div>
 
@@ -242,20 +238,20 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <h3 className="text-xl font-semibold mb-2">E-commerce Mobile App</h3>
+              <h3 className="text-xl font-semibold mb-2">AI-Driven Interview Assistant</h3>
               <p className="text-gray-600 mb-3">
-                A feature-rich shopping application with personalized recommendations.
+              An AI-driven interview platform that automates candidate screening, evaluates responses, and delivers instant insights to streamline hiring.
               </p>
               <div className="flex flex-wrap gap-2">
-                <span className="text-xs bg-gray-100 px-2 py-1 rounded">React Native</span>
-                <span className="text-xs bg-gray-100 px-2 py-1 rounded">Firebase</span>
-                <span className="text-xs bg-gray-100 px-2 py-1 rounded">Stripe</span>
+                <span className="text-xs bg-gray-100 px-2 py-1 rounded">React js</span>
+                <span className="text-xs bg-gray-100 px-2 py-1 rounded">Node js</span>
+                <span className="text-xs bg-gray-100 px-2 py-1 rounded">MongoDB</span>
               </div>
             </div>
           </div>
 
           <div className="text-center mt-12">
-            <Button variant="outline" size="lg">
+            <Button variant="outline" size="lg" onClick={() => router.push('/work')}>
               View All Projects
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
@@ -270,7 +266,7 @@ export default function Home() {
           <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
             Let's collaborate to create exceptional digital experiences that drive results for your business.
           </p>
-          <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+          <Button size="lg" className="bg-blue-600 hover:bg-blue-700" onClick={() => router.push('/contact')}>
             Get a Free Proposal
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>

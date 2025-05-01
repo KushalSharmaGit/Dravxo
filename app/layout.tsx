@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   title: "Sheenedge | Premium Digital Agency",
   description:
     "We build tomorrow's web, apps & AI agents. Premium digital solutions crafted with precision and innovation.",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -22,6 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="https://www.sheenedge.com/SheenEdge.jpg" />
+      </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <Navbar />
