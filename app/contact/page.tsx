@@ -206,8 +206,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-lg font-semibold mb-1">Email</h3>
                     <p className="text-gray-600 mb-1">For general inquiries:</p>
-                    <a href="mailto:sheenedgehelp@gmail.com" className="text-blue-600 hover:text-blue-700">
-                    sheenedgehelp@gmail.com
+                    <a href="mailto:dravxo@gmail.com" className="text-blue-600 hover:text-blue-700">
+                    dravxo@gmail.com
                     </a>
                   </div>
                 </div>

@@ -52,7 +52,7 @@ export default function Navbar() {
         <nav className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold text-gray-900">
-            Sheen<span className="text-blue-600">Edge</span>
+            Drav<span className="text-blue-600">Xo</span>
           </Link>
 
           {/* Desktop Navigation */}

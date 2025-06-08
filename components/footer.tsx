@@ -9,14 +9,14 @@ export default function Footer() {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-1">
             <Link href="/" className="text-2xl font-bold mb-4 inline-block">
-              Sheen<span className="text-blue-500">Edge</span>
+              Drav<span className="text-blue-500">Xo</span>
             </Link>
             <p className="text-gray-400 mt-4 mb-6">
               Premium digital solutions crafted with precision, innovation, and a deep understanding of your business
               needs.
             </p>
             <div className="flex space-x-4">
-            <a href="https://www.instagram.com/sheenedge" className="text-gray-400 hover:text-white transition-colors" aria-label="Instagram">
+            <a href="https://www.instagram.com/dravxo.in/" className="text-gray-400 hover:text-white transition-colors" aria-label="Instagram">
                 <Instagram size={20} />
               </a>
               <a href="https://www.linkedin.com/company/sheenedge/" className="text-gray-400 hover:text-white transition-colors" aria-label="LinkedIn">
@@ -85,8 +85,8 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <Mail className="mr-2 h-5 w-5 text-gray-400 mt-0.5" />
-                <a href="mailto:sheenedgehelp@gmail.com" className="text-gray-400 hover:text-white transition-colors">
-                sheenedgehelp@gmail.com
+                <a href="mailto:dravxo@gmail.com" className="text-gray-400 hover:text-white transition-colors">
+                dravxo@gmail.com
                 </a>
               </li>
               <li className="flex items-start">
@@ -104,7 +104,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-500 text-sm">&copy; {new Date().getFullYear()} SheenEdge. All rights reserved.</p>
+          <p className="text-gray-500 text-sm">&copy; {new Date().getFullYear()} Dravxo. All rights reserved.</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <Link href="/privacy" className="text-gray-500 text-sm hover:text-gray-400 transition-colors">
               Privacy Policy

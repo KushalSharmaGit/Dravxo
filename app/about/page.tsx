@@ -9,7 +9,7 @@ export default function AboutPage() {
       <section className="py-20 bg-gray-50">
         <div className="container max-w-5xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">About Sheenedge</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">About Dravxo</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We're a team of passionate digital creators building tomorrow's web experiences, mobile applications, and
               AI solutions.
@@ -19,7 +19,7 @@ export default function AboutPage() {
           <div className="aspect-video rounded-lg overflow-hidden">
             <img
               src="/6.png?height=720&width=1280"
-              alt="Sheenedge team"
+              alt="Dravxo team"
               className="w-full h-full object-cover"
             />
           </div>
@@ -33,7 +33,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <p className="text-gray-600 mb-4">
-              SheenEdge was founded with a clear mission: to craft digital experiences that make a real impact. What began as a small team of three passionate developers has quickly grown into a full-service digital agency with a growing global presence.
+              Dravxo was founded with a clear mission: to craft digital experiences that make a real impact. What began as a small team of three passionate developers has quickly grown into a full-service digital agency with a growing global presence.
               </p>
               <p className="text-gray-600 mb-4">
                 We believe that exceptional digital products are born at the intersection of beautiful design,
@@ -186,7 +186,7 @@ export default function AboutPage() {
                 />
               </div>
               <h3 className="text-xl font-semibold mb-1">Manasvi Rajendra</h3>
-              <p className="text-blue-600 mb-3">Founder & CEO</p>
+              <p className="text-blue-600 mb-3">Co-Founder & CEO</p>
               <p className="text-gray-600 mb-4">
                 Visionary leader with experience in digital product development.
               </p>
@@ -211,7 +211,7 @@ export default function AboutPage() {
                 />
               </div>
               <h3 className="text-xl font-semibold mb-1">Kushal Sharma</h3>
-              <p className="text-blue-600 mb-3">CTO</p>
+              <p className="text-blue-600 mb-3">Co-Founder & CTO</p>
               <p className="text-gray-600 mb-4">
                 Tech visionary with expertise in AI, Web Developemnet, and App Development.
               </p>

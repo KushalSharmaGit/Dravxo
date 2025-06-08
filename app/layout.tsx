@@ -9,7 +9,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Sheenedge | Premium Digital Agency",
+  title: "Dravxo | Premium Digital Agency",
   description:
     "We build tomorrow's web, apps & AI agents. Premium digital solutions crafted with precision and innovation.",
 }
@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="https://www.sheenedge.com/SheenEdge.jpg" />
+        <link rel="icon" href="/logo.jpg" />
       </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
