@@ -206,7 +206,7 @@ export default function Home() {
             <div className="group">
               <div className="relative overflow-hidden rounded-lg mb-4">
                 <img
-                  src="https://media.licdn.com/dms/image/v2/D4E2DAQFYuFtOhJHFlQ/profile-treasury-image-shrink_800_800/B4EZUEI16UHgAk-/0/1739531183280?e=1746709200&v=beta&t=g0HUrkrYwV6YkHC0r2nZPa2YX6qkEtGjhZQwkL0vmh0"
+                  src="/link-1.png"
                   alt="Project thumbnail"
                   className="w-full h-[300px] object-cover transition-transform duration-500 group-hover:scale-105"
                 />

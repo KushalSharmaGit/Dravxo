@@ -180,7 +180,7 @@ export default function AboutPage() {
             <div className="text-center">
               <div className="mb-4 rounded-full overflow-hidden w-48 h-48 mx-auto">
                 <img
-                  src="https://media.licdn.com/dms/image/v2/D5603AQG5noYPqX-D7Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1732938655612?e=1751500800&v=beta&t=V-HwNgzV5ej4HJOVNlGWKM-JicvQJnTA4HxebUOGf6E"
+                  src="https://media.licdn.com/dms/image/v2/D5603AQG3Ndjw0TuTfA/profile-displayphoto-shrink_400_400/B56Zc.2Lt_GQAk-/0/1749106082527?e=1755129600&v=beta&t=rcNbY28KdoVH8hnyqN4AxaSO14nJ6G794dmNFIP4s0g"
                   alt="Team member"
                   className="w-full h-full object-cover"
                 />
